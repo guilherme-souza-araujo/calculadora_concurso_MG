@@ -1,6 +1,7 @@
 # Calculadora de Nota
 
-Este projeto é uma ferramenta em Python projetada para calcular e gerenciar notas, possivelmente voltada para exames ou contextos acadêmicos que envolvem redação e títulos.
+Este projeto é uma ferramenta em Python projetada para calcular as notas do concurso da educação do estado de MG.
+A ferramenta extrai dados dos 3 arquivos diferentes e exporta a soma das notas para um arquivo CSV.
 
 ## 🚀 Estrutura do Projeto
 
@@ -27,7 +28,7 @@ Certifique-se de ter o Python 3.13+ instalado. O projeto utiliza `virtualenv` pa
    cd calculadora_nota
    ```
 
-2. Crie e ative o ambiente virtual (optional):
+2. Crie e ative o ambiente virtual:
    ```bash
    python -m venv venv
    # No Windows:
